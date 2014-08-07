@@ -1,0 +1,16 @@
+name = Starter: SEO
+description = Starter SEO.
+core = 7.x
+package = Starter
+version = 7.x-1.0
+project = starter_seo
+dependencies[] = googleanalytics
+dependencies[] = metatag
+dependencies[] = metatag_ui
+dependencies[] = page_title
+dependencies[] = pathauto
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_menu
+features[features_api][] = api:2
+project path = sites/all/modules/features
